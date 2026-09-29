@@ -11,10 +11,18 @@
 </head>
 <body>
  <header>
-    <div class="container">
-        <h2 class="desktop-only py-base px-lg">Lado A</h2>
-        <h2 class="desktop-only">Lado B</h2>
+    <div class="container flex gap-1">
+        <a href="#" class="btn btn-sm">link</a>
+        <span class="btn btn-md">span</span>
+        <button class="btn btn-lg">botão 1</button>
     </div>
+
+     <div class="container flex gap-1">
+        <a href="#" aria-label="link" class="btn btn-sm"></a>
+        <span class="btn btn-md" aria-label="span"></span>
+        <button class="btn btn-lg" aria-label="Botão 1"></button>
+    </div>
+
  </header>
 </body>
 </html>
