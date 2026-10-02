@@ -47,7 +47,7 @@
 
 .btn[aria-label] {
     position: relative;
-    
+
     &::before{
         content: "";
         position: absolute;
@@ -66,3 +66,4 @@
         position: relative;
     }
 }
+
