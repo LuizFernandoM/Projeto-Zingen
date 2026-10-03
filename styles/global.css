@@ -49,6 +49,7 @@ html {
     line-height: 1.5rem;
     color: var(--text-color-primary);
     overflow-x: hidden;
+    scroll-behavior: smooth;
 
 }
 
